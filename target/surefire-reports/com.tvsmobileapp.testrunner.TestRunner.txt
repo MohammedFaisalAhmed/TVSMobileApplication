@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.tvsmobileapp.testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.195 s <<< FAILURE! - in com.tvsmobileapp.testrunner.TestRunner
+com.tvsmobileapp.testrunner.TestRunner.runScenario["Open the app and work on it", "TVS Mobile App"](1)  Time elapsed: 23.65 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'User click on Book a test ride button' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("User click on Book a test ride button")
+public void user_click_on_book_a_test_ride_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
