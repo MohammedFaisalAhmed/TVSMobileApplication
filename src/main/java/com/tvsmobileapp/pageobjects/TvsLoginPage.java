@@ -27,6 +27,8 @@ public class TvsLoginPage
 		PageFactory.initElements(new AppiumFieldDecorator(driver,Duration.ofSeconds(10)), this);
 	}
 	
+	//added comments
+	
 	/*public WebElement getMotorcycle() 
 	{
 		return motorcycle;
